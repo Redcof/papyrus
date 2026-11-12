@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+output/drafts/*.md
+output/approved/*.md
+output/reports/*.json
+output/books/*.md
+output/books/*.pdf
+output/books/*.docx
