@@ -1,0 +1,263 @@
+[
+  {
+    "id": "bishop2006",
+    "citation": "Bishop, C. M. Pattern Recognition and Machine Learning. Springer (2006).",
+    "url": "https://link.springer.com/book/9780387310732",
+    "tags": [
+      "statistics",
+      "ml"
+    ]
+  },
+  {
+    "id": "hastie2009",
+    "citation": "Hastie, Tibshirani & Friedman. The Elements of Statistical Learning (2nd ed.). Springer (2009).",
+    "url": "https://hastie.su.domains/ElemStatLearn/",
+    "tags": [
+      "statistics",
+      "ml"
+    ]
+  },
+  {
+    "id": "goodfellow2016",
+    "citation": "Goodfellow, Bengio & Courville. Deep Learning. MIT Press (2016).",
+    "url": "https://www.deeplearningbook.org/",
+    "tags": [
+      "ml",
+      "cv",
+      "genai"
+    ]
+  },
+  {
+    "id": "pearl2009",
+    "citation": "Pearl, J. Causality: Models, Reasoning, and Inference (2nd ed.). Cambridge (2009).",
+    "url": "https://www.cambridge.org/core/books/causality/",
+    "tags": [
+      "statistics",
+      "product"
+    ]
+  },
+  {
+    "id": "kohavi2020",
+    "citation": "Kohavi, Henne & Sommerfield. Trustworthy Online Controlled Experiments. Cambridge (2020).",
+    "url": "https://experimentguide.com/",
+    "tags": [
+      "statistics",
+      "product"
+    ]
+  },
+  {
+    "id": "vaswani2017",
+    "citation": "Vaswani et al. Attention Is All You Need. NeurIPS (2017).",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "tags": [
+      "ml",
+      "genai"
+    ]
+  },
+  {
+    "id": "dosovitskiy2020",
+    "citation": "Dosovitskiy et al. An Image is Worth 16x16 Words. ICLR (2021).",
+    "url": "https://arxiv.org/abs/2010.11929",
+    "tags": [
+      "cv",
+      "ml"
+    ]
+  },
+  {
+    "id": "he2016",
+    "citation": "He et al. Deep Residual Learning for Image Recognition. CVPR (2016).",
+    "url": "https://arxiv.org/abs/1512.03385",
+    "tags": [
+      "cv",
+      "ml"
+    ]
+  },
+  {
+    "id": "carion2020",
+    "citation": "Carion et al. End-to-End Object Detection with Transformers. ECCV (2020).",
+    "url": "https://arxiv.org/abs/2005.12872",
+    "tags": [
+      "cv"
+    ]
+  },
+  {
+    "id": "lewis2020",
+    "citation": "Lewis et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. NeurIPS (2020).",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "tags": [
+      "rag",
+      "genai"
+    ]
+  },
+  {
+    "id": "karpukhin2020",
+    "citation": "Karpukhin et al. Dense Passage Retrieval for Open-Domain Question Answering. EMNLP (2020).",
+    "url": "https://arxiv.org/abs/2004.04906",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": "cormack2009",
+    "citation": "Cormack, Clarke & Buettcher. Reciprocal Rank Fusion Outperforms Condorcet and Individual Rank Learning Methods. SIGIR (2009).",
+    "url": "https://doi.org/10.1145/1571941.1572114",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": "malkov2018",
+    "citation": "Malkov & Yashunin. Efficient and Robust Approximate Nearest Neighbor Search Using HNSW. IEEE TPAMI (2020).",
+    "url": "https://arxiv.org/abs/1603.09320",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": "hu2021",
+    "citation": "Hu et al. LoRA: Low-Rank Adaptation of Large Language Models. ICLR (2022).",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "tags": [
+      "genai"
+    ]
+  },
+  {
+    "id": "dettmers2023",
+    "citation": "Dettmers et al. QLoRA: Efficient Finetuning of Quantized LLMs. NeurIPS (2023).",
+    "url": "https://arxiv.org/abs/2305.14314",
+    "tags": [
+      "genai"
+    ]
+  },
+  {
+    "id": "kwon2023",
+    "citation": "Kwon et al. Efficient Memory Management for Large Language Model Serving with PagedAttention. SOSP (2023).",
+    "url": "https://arxiv.org/abs/2309.06180",
+    "tags": [
+      "genai",
+      "systems"
+    ]
+  },
+  {
+    "id": "yao2022",
+    "citation": "Yao et al. ReAct: Synergizing Reasoning and Acting in Language Models. ICLR (2023).",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "mcp2025",
+    "citation": "Model Context Protocol: Official Specification.",
+    "url": "https://modelcontextprotocol.io/specification",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "bedrockdocs",
+    "citation": "AWS. Amazon Bedrock Documentation.",
+    "url": "https://docs.aws.amazon.com/bedrock/",
+    "tags": [
+      "aws",
+      "rag",
+      "agents"
+    ]
+  },
+  {
+    "id": "agentcoredocs",
+    "citation": "AWS. Amazon Bedrock AgentCore Documentation.",
+    "url": "https://docs.aws.amazon.com/bedrock-agentcore/",
+    "tags": [
+      "aws",
+      "agents"
+    ]
+  },
+  {
+    "id": "sagemakerdocs",
+    "citation": "AWS. Amazon SageMaker AI Documentation.",
+    "url": "https://docs.aws.amazon.com/sagemaker/",
+    "tags": [
+      "aws",
+      "mlops"
+    ]
+  },
+  {
+    "id": "kleppmann2017",
+    "citation": "Kleppmann, M. Designing Data-Intensive Applications. O’Reilly (2017).",
+    "url": "https://dataintensive.net/",
+    "tags": [
+      "systems",
+      "mlops"
+    ]
+  },
+  {
+    "id": "sre2016",
+    "citation": "Beyer et al. Site Reliability Engineering. O’Reilly (2016).",
+    "url": "https://sre.google/sre-book/table-of-contents/",
+    "tags": [
+      "systems",
+      "mlops"
+    ]
+  },
+  {
+    "id": "sparkdocs",
+    "citation": "Apache Spark. Official Documentation.",
+    "url": "https://spark.apache.org/docs/latest/",
+    "tags": [
+      "data",
+      "mlops"
+    ]
+  },
+  {
+    "id": "opencvdocs",
+    "citation": "OpenCV. Official Documentation.",
+    "url": "https://docs.opencv.org/4.x/",
+    "tags": [
+      "cv"
+    ]
+  },
+  {
+    "id": "tensorrtdocs",
+    "citation": "NVIDIA. TensorRT Documentation.",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/",
+    "tags": [
+      "cv",
+      "systems"
+    ]
+  },
+  {
+    "id": "crewaidocs",
+    "citation": "CrewAI. Official Documentation.",
+    "url": "https://docs.crewai.com/",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "langgraphdocs",
+    "citation": "LangChain. LangGraph Documentation.",
+    "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "mlflowdocs",
+    "citation": "MLflow. Official Documentation.",
+    "url": "https://mlflow.org/docs/latest/",
+    "tags": [
+      "mlops"
+    ]
+  },
+  {
+    "id": "nistairmf",
+    "citation": "NIST. AI Risk Management Framework (AI RMF 1.0).",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "tags": [
+      "leadership",
+      "mlops",
+      "agents"
+    ]
+  }
+]
