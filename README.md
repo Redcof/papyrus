@@ -92,3 +92,26 @@ The static checks validate basic structure, Python syntax and citation identifie
 ## Security and cost
 
 Never commit API keys. Draft generation may incur significant provider charges. Do not execute generated code without inspecting it in a sandbox. Use chapter-by-chapter review before a full book run.
+
+
+## Autonomous research-to-publication workflow (v0.2)
+
+Papyrus now offers a new `papyrus` CLI. Research metadata comes from Crossref and
+OpenAlex; citations are validated against a per-chapter evidence bundle. **Bibliographic
+metadata does NOT verify that a scholarly source supports a claim.** Keep human review.
+
+```bash
+papyrus research --chapter 1
+papyrus pipeline --chapter 1
+papyrus verify --chapter 1
+papyrus approve --chapter 1 --reviewed
+papyrus publish --format md
+papyrus publish --format docx
+papyrus publish --format pdf
+```
+
+The `--all` LLM generation command requires `--confirm-cost`. Use `--dry-run`
+for an inexpensive syllabus overview. Generation is resumable unless `--force`.
+Pandoc is required for DOCX, EPUB and PDF; PDF also requires a LaTeX engine.
+Generated Python code is **parsed, not executed**; equations and claims require human checking.
+`--render-mermaid` runs installed Mermaid CLI and is optional.
