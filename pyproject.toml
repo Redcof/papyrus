@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "principal-ai-book-crew"
+version = "0.1.0"
+description = "Resumable CrewAI-assisted technical textbook generation"
+requires-python = ">=3.11,<3.14"
+dependencies = ["crewai>=1.12,<2", "python-dotenv>=1.0,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+bookgen = "bookgen.cli:main"
+
+[tool.setuptools]
+packages = ["bookgen"]
