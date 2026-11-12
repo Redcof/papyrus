@@ -47,5 +47,5 @@ def ensure_reference_section(markdown: str, refs: list[dict]) -> str:
     """Replace references section using only catalog entries actually cited."""
     used = set(CITATION.findall(markdown))
     clean = re.split(r"^## References\s*$", markdown, maxsplit=1, flags=re.MULTILINE)[0].rstrip()
-    items = [f"- **[@{r['id']}]** {r['citation']} {r['url']}" for r in refs if r["id"] in used]
+    items = [f"- **[@{r['id']}]** {r.get('citation', r.get('title', ''))} {r.get('url', '')}" for r in refs if r["id"] in used]
     return clean + "\n\n## References\n\n" + ("\n".join(items) if items else "*No supported citations supplied; requires research review.*") + "\n"
