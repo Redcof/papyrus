@@ -1,9 +1,10 @@
 """CrewAI authoring pipeline. Imports are lazy so --dry-run works offline."""
 import os
+import json
 from .catalog import relevant_refs
 
 
-def generate(chapter):
+def generate(chapter, evidence_bundle=None):
     from crewai import Agent, Task, Crew, Process, LLM
 
     llm = LLM(
@@ -36,6 +37,10 @@ def generate(chapter):
     )
     refs = relevant_refs(chapter)
     allowed = "\n".join(f"[@{r['id']}] {r['citation']} {r['url']}" for r in refs)
+    evidence_text = ""
+    if evidence_bundle:
+        evidence_text = "\nRETRIEVED METADATA (not full-text proof):\n" + json.dumps(
+            evidence_bundle, ensure_ascii=False, indent=2)[:22000]
     spec = f"Chapter {chapter['number']}: {chapter['title']}\nPart: {chapter['part_title']}\nAudience: 12+ years, Staff/Principal/Lead AI, Data Science, CV, ML Engineering and Architecture roles."
     evidence = Task(
         description=(
@@ -44,7 +49,7 @@ def generate(chapter):
             "so do not pretend to have checked any text, results or API versions. "
             "Mark facts requiring independent source verification and suggest what to verify. "
             "Use source references only for clearly relevant claims.\n"
-            f"Seed references:\n{allowed}"
+            f"Seed references:\n{allowed}" + evidence_text
         ),
         expected_output="Teaching outline, essential math, algorithms, risks, and source mapping with [@id] citations.",
         agent=researcher,
