@@ -3,9 +3,10 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "principal-ai-book-crew"
-version = "0.1.0"
-description = "Resumable CrewAI-assisted technical textbook generation"
+name = "papyrus"
+version = "0.2.0"
+description = "CrewAI-powered research, writing, verification, and publishing pipeline for technical books"
+readme = "README.md"
 requires-python = ">=3.11,<3.14"
 dependencies = ["crewai>=1.12,<2", "python-dotenv>=1.0,<2"]
 
@@ -13,8 +14,8 @@ dependencies = ["crewai>=1.12,<2", "python-dotenv>=1.0,<2"]
 test = ["pytest>=8,<10"]
 
 [project.scripts]
-bookgen = "bookgen.cli:main"
 papyrus = "bookgen.autopilot:main"
+bookgen = "bookgen.cli:main"
 
 [tool.setuptools]
 packages = ["bookgen"]
