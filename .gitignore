@@ -9,3 +9,7 @@ output/reports/*.json
 output/books/*.md
 output/books/*.pdf
 output/books/*.docx
+
+output/research/
+output/reports/
+output/books/
