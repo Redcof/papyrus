@@ -1,0 +1,433 @@
+{
+  "title": "The Principal AI Engineer's Handbook",
+  "subtitle": "Science, Computer Vision, RAG, Agentic AI, Cloud Systems and Technical Leadership",
+  "edition": "2026–2027",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Mathematics, Statistics and Product Science",
+      "chapters": [
+        {
+          "number": 1,
+          "slug": "01",
+          "title": "Probability, Distributions and Bayesian Reasoning",
+          "type": "technical"
+        },
+        {
+          "number": 2,
+          "slug": "02",
+          "title": "Statistical Inference, Confidence Intervals and Hypothesis Testing",
+          "type": "technical"
+        },
+        {
+          "number": 3,
+          "slug": "03",
+          "title": "A/B Testing, Power Analysis and Switchback Experiments",
+          "type": "technical"
+        },
+        {
+          "number": 4,
+          "slug": "04",
+          "title": "Causal Inference, Difference-in-Differences, Propensity Scores and Uplift",
+          "type": "technical"
+        },
+        {
+          "number": 5,
+          "slug": "05",
+          "title": "Linear Algebra, Calculus, Optimization and Information Theory",
+          "type": "technical"
+        },
+        {
+          "number": 6,
+          "slug": "06",
+          "title": "Classical Machine Learning and Statistical Modeling",
+          "type": "technical"
+        },
+        {
+          "number": 7,
+          "slug": "07",
+          "title": "Time Series, Forecasting, Anomaly Detection and Uncertainty",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Machine Learning and Deep Learning",
+      "chapters": [
+        {
+          "number": 8,
+          "slug": "08",
+          "title": "ML Algorithms, Assumptions, Bias-Variance and Generalization",
+          "type": "technical"
+        },
+        {
+          "number": 9,
+          "slug": "09",
+          "title": "Neural Networks, Backpropagation and Optimization",
+          "type": "technical"
+        },
+        {
+          "number": 10,
+          "slug": "10",
+          "title": "CNNs, Attention, Transformers and Vision Transformers",
+          "type": "technical"
+        },
+        {
+          "number": 11,
+          "slug": "11",
+          "title": "Representation Learning, Self-Supervision and Contrastive Losses",
+          "type": "technical"
+        },
+        {
+          "number": 12,
+          "slug": "12",
+          "title": "Few-Shot, Zero-Shot, Domain Adaptation and Open-Set Learning",
+          "type": "technical"
+        },
+        {
+          "number": 13,
+          "slug": "13",
+          "title": "Evaluation, Calibration, Imbalance and Error Analysis",
+          "type": "technical"
+        },
+        {
+          "number": 14,
+          "slug": "14",
+          "title": "Distributed Training, GPUs, Quantization and Distillation",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Computer Vision and Camera Engineering",
+      "chapters": [
+        {
+          "number": 15,
+          "slug": "15",
+          "title": "Image Processing, Geometry, Filtering and Morphology",
+          "type": "technical"
+        },
+        {
+          "number": 16,
+          "slug": "16",
+          "title": "Detection, Classification, Tracking and Segmentation",
+          "type": "technical"
+        },
+        {
+          "number": 17,
+          "slug": "17",
+          "title": "YOLO, Faster R-CNN, DETR and Vision Foundation Models",
+          "type": "technical"
+        },
+        {
+          "number": 18,
+          "slug": "18",
+          "title": "Camera Optics, Sensors, Calibration and ISP",
+          "type": "technical"
+        },
+        {
+          "number": 19,
+          "slug": "19",
+          "title": "Multi-Camera Synchronization, Sensor Fusion and 3D Geometry",
+          "type": "technical"
+        },
+        {
+          "number": 20,
+          "slug": "20",
+          "title": "Real-Time C++/OpenCV, CUDA, TensorRT and Edge Inference",
+          "type": "technical"
+        },
+        {
+          "number": 21,
+          "slug": "21",
+          "title": "Image Quality, Occlusion, Clutter and Robustness",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Generative AI and Foundation Models",
+      "chapters": [
+        {
+          "number": 22,
+          "slug": "22",
+          "title": "LLM Architecture, Tokenization, Attention and Embeddings",
+          "type": "technical"
+        },
+        {
+          "number": 23,
+          "slug": "23",
+          "title": "Pretraining, Instruction Tuning, LoRA, QLoRA and Alignment",
+          "type": "technical"
+        },
+        {
+          "number": 24,
+          "slug": "24",
+          "title": "Model Serving, vLLM, Batching, KV Cache and Inference",
+          "type": "technical"
+        },
+        {
+          "number": 25,
+          "slug": "25",
+          "title": "Multimodal Models, Diffusion, GANs and Synthetic Data",
+          "type": "technical"
+        },
+        {
+          "number": 26,
+          "slug": "26",
+          "title": "LLM Evaluation, Safety, Benchmarking and Model Selection",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Production RAG Engineering",
+      "chapters": [
+        {
+          "number": 27,
+          "slug": "27",
+          "title": "RAG Fundamentals and End-to-End Document Pipelines",
+          "type": "technical"
+        },
+        {
+          "number": 28,
+          "slug": "28",
+          "title": "Parsing, OCR, Chunking, Metadata and Incremental Indexing",
+          "type": "technical"
+        },
+        {
+          "number": 29,
+          "slug": "29",
+          "title": "Embeddings, Vector Indexes and Approximate Nearest Neighbors",
+          "type": "technical"
+        },
+        {
+          "number": 30,
+          "slug": "30",
+          "title": "BM25, Dense and Hybrid Retrieval, Fusion and Reranking",
+          "type": "technical"
+        },
+        {
+          "number": 31,
+          "slug": "31",
+          "title": "Advanced RAG: Query Routing, GraphRAG and Multi-Hop Retrieval",
+          "type": "technical"
+        },
+        {
+          "number": 32,
+          "slug": "32",
+          "title": "RAG Evaluation, Grounding, Security, Latency and Cost",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Agentic AI and AWS Bedrock",
+      "chapters": [
+        {
+          "number": 33,
+          "slug": "33",
+          "title": "Tool Calling, Agent Design Patterns and MCP",
+          "type": "technical"
+        },
+        {
+          "number": 34,
+          "slug": "34",
+          "title": "LangGraph, State Machines, Memory and Human Approval",
+          "type": "technical"
+        },
+        {
+          "number": 35,
+          "slug": "35",
+          "title": "Multi-Agent Orchestration, Reliability and Agent Evaluation",
+          "type": "technical"
+        },
+        {
+          "number": 36,
+          "slug": "36",
+          "title": "AWS Bedrock Models, Knowledge Bases and Guardrails",
+          "type": "technical"
+        },
+        {
+          "number": 37,
+          "slug": "37",
+          "title": "AWS Bedrock Agents, AgentCore and Enterprise Deployment",
+          "type": "technical"
+        },
+        {
+          "number": 38,
+          "slug": "38",
+          "title": "AWS Architecture, IAM, Networking, Scaling and FinOps",
+          "type": "technical"
+        },
+        {
+          "number": 39,
+          "slug": "39",
+          "title": "Agent Security, Prompt Injection, Tool Permissions and Recovery",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "MLOps, Data Engineering and Production Systems",
+      "chapters": [
+        {
+          "number": 40,
+          "slug": "40",
+          "title": "Data Engineering: SQL, Spark, Hive, Trino and Pipelines",
+          "type": "technical"
+        },
+        {
+          "number": 41,
+          "slug": "41",
+          "title": "Feature Stores, Lineage, Registries and Reproducibility",
+          "type": "technical"
+        },
+        {
+          "number": 42,
+          "slug": "42",
+          "title": "Docker, Kubernetes, CI/CD, Model Serving and Rollbacks",
+          "type": "technical"
+        },
+        {
+          "number": 43,
+          "slug": "43",
+          "title": "Monitoring, Drift, Observability, Security and Governance",
+          "type": "technical"
+        },
+        {
+          "number": 44,
+          "slug": "44",
+          "title": "Distributed Data Pipelines, Streaming and Workflow Orchestration",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "System Design and Software Engineering",
+      "chapters": [
+        {
+          "number": 45,
+          "slug": "45",
+          "title": "Distributed Systems, APIs, Caching, Queues and Consistency",
+          "type": "technical"
+        },
+        {
+          "number": 46,
+          "slug": "46",
+          "title": "ML System Design, SLAs, Capacity Planning and Resilience",
+          "type": "technical"
+        },
+        {
+          "number": 47,
+          "slug": "47",
+          "title": "Python and C++ Coding, Algorithms, Concurrency and Performance",
+          "type": "technical"
+        },
+        {
+          "number": 48,
+          "slug": "48",
+          "title": "Production Architecture: Cloud, Edge and Hybrid Systems",
+          "type": "technical"
+        },
+        {
+          "number": 49,
+          "slug": "49",
+          "title": "AI System Cost Modeling, Reliability and Failure Analysis",
+          "type": "technical"
+        },
+        {
+          "number": 50,
+          "slug": "50",
+          "title": "Staff-Level Coding, Design Patterns, Testing and Code Reviews",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Domain Applications and Research",
+      "chapters": [
+        {
+          "number": 51,
+          "slug": "51",
+          "title": "Recommenders, Search, Ranking and Personalization",
+          "type": "technical"
+        },
+        {
+          "number": 52,
+          "slug": "52",
+          "title": "Marketplace Optimization, Pricing and Experimentation",
+          "type": "technical"
+        },
+        {
+          "number": 53,
+          "slug": "53",
+          "title": "Healthcare AI, Medical Imaging and Regulated Systems",
+          "type": "technical"
+        },
+        {
+          "number": 54,
+          "slug": "54",
+          "title": "Research Design, Benchmarking, Ablation and Reproducibility",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Staff, Principal and Manager Leadership",
+      "chapters": [
+        {
+          "number": 55,
+          "slug": "55",
+          "title": "Architecture Ownership, Technical Strategy and Roadmaps",
+          "type": "leadership"
+        },
+        {
+          "number": 56,
+          "slug": "56",
+          "title": "Stakeholder Influence, Mentorship and Technical Governance",
+          "type": "leadership"
+        },
+        {
+          "number": 57,
+          "slug": "57",
+          "title": "Product Impact, Prioritization, Risk and Research-to-Production",
+          "type": "leadership"
+        },
+        {
+          "number": 58,
+          "slug": "58",
+          "title": "Leadership, Behavioral Interviews and Technical Storytelling",
+          "type": "leadership"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Mock Interviews and Capstone Projects",
+      "chapters": [
+        {
+          "number": 59,
+          "slug": "59",
+          "title": "Scientific, Coding and Architecture Interview Drills",
+          "type": "technical"
+        },
+        {
+          "number": 60,
+          "slug": "60",
+          "title": "Production Capstones, Design Reviews and Role-Specific Mock Loops",
+          "type": "technical"
+        }
+      ]
+    }
+  ]
+}
